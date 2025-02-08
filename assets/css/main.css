@@ -1173,17 +1173,37 @@ body {
     .work--lockup .slider--prev {
         top: 105px
     }
+
+    .hire{
+        display: flex;
+    align-items: center;
+        height: 50%;
+    }
+
+    .work-request--options .options-b{
+        height: 50%;
+        overflow: auto;
+    }
+
+    .hire h2{
+        position: absolute;
+        top: 50px;
+    }
 }
 
 @media (max-width: 600px) {
     .work--lockup .slider {
         width: auto
     }
+    
 
     .work--lockup .slider--item-left,
     .work--lockup .slider--item-right {
         display: none
     }
+
+    
+
 }
 
 .about {
